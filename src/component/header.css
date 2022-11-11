@@ -1,0 +1,33 @@
+.header{
+    background: var(--negrox);
+    position: relative;
+    padding: var(--default-padding);
+}
+
+.title{
+    font-weight: 800;
+    color: var(--blancox);
+    font-size: 2.4rem;
+}
+
+.subtitle{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    color: var(--blancox);
+    font-size: 1.5rem;
+}
+
+@media all and (min-width: 768px ){
+    :root{
+        --default-padding: 1rem 5.1875rem;
+    }
+    .subtitle{
+        font-size: 3rem;
+    }
+    .title{
+        font-size: 4.5rem;
+    }
+    #julian-fontana{
+        font-size: 1.8rem;
+    }
+}

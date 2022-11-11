@@ -27,6 +27,10 @@
   color: var(--negrox);
 }
 
+.project_btn-action a:hover{
+  color: var(--negrox);
+}
+
 .card-body {
   color: var(--blancox);
   font-size: 2rem;
