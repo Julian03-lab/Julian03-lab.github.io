@@ -1,0 +1,38 @@
+:root {
+  --naranjax: rgb(251, 129, 34);
+  --blancox: rgb(225, 226, 226);
+  --negrox: #141824;
+  --default-padding: 1.5rem;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  background-color: var(--negrox);
+}
+
+a {
+  text-decoration: none;
+}
+
+.content-section {
+  padding: 1.5rem 1rem;
+  position: relative;
+  z-index: 99;
+}
+
+.titles {
+  font-weight: 700;
+  font-size: 3rem;
+  color: var(--naranjax);
+}
+
+@media all and (min-width: 768px) {
+  .content-section {
+    padding: 3rem 5.1875rem;
+  }
+
+  .titles {
+    font-size: 5rem;
+  }
+}
