@@ -1,0 +1,33 @@
+.about-content {
+  border: var(--naranjax) solid 3px;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  background: rgba(251, 129, 34, 0.1);
+}
+
+#about-description-text {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--blancox);
+  margin: 0;
+}
+
+#user-photo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media all and (min-width: 768px) {
+  #about-description-text {
+    font-size: 1.5rem;
+  }
+
+  #user-photo {
+    height: 200px;
+    width: 200px;
+  }
+}

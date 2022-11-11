@@ -1,0 +1,38 @@
+.contact-content {
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.option-white {
+  color: var(--blancox);
+}
+.option-orange {
+  color: var(--naranjax);
+}
+
+@media all and (min-width: 768px) {
+  .contact-content {
+    font-size: 4rem;
+  }
+  .contact-content a:hover {
+    font-size: 5rem;
+  }
+}
+
+@media all and (min-width: 992px) and (max-width: 1092px) {
+  .contact-content {
+    font-size: 4.5rem;
+  }
+  .contact-content a:hover {
+    font-size: 5.4rem;
+  }
+}
+
+@media all and (min-width: 1093px) {
+  .contact-content {
+    font-size: 4.5rem;
+  }
+  .contact-content a:hover {
+    font-size: 5.4rem;
+  }
+}

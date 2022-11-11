@@ -1,0 +1,14 @@
+footer {
+  height: 6rem;
+  padding: 0 5.1875rem;
+  color: var(--blancox);
+}
+
+footer .header-element {
+  font-size: 1rem;
+}
+
+em {
+  font-style: normal;
+  color: var(--naranjax);
+}
