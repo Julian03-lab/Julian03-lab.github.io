@@ -9,28 +9,28 @@ import ToDo from "../assets/projects-images/To-Do-List-Javascript.png";
 
 const projects = [
   {
-    id: 11,
+    id: 1,
     demo: "https://julian-fontana.me",
     github: "https://github.com/Julian03-lab/Julian03-lab.github.io",
     image: portfolio,
     title: "Portafolio",
   },
   {
-    id: 12,
+    id: 2,
     demo: "https://julian-fontana.me/To-Do-List-Javascript",
     github: "https://github.com/Julian03-lab/To-Do-List-Javascript",
     image: ToDo,
     title: "To-Do List",
   },
   {
-    id: 13,
+    id: 3,
     demo: "https://julian-fontana.me/calculadora-javascript",
     github: "https://github.com/Julian03-lab/calculadora-javascript",
     image: calculator,
     title: "Calculadora",
   },
   {
-    id: 14,
+    id: 4,
     demo: "https://julian-fontana.me/TaTeTi-javascript/",
     github: "https://github.com/Julian03-lab/TaTeTi-javascript",
     image: tictactoe,
@@ -72,7 +72,7 @@ function Projects() {
         <i className="bi bi-pc" />
         Proyectos
       </div>
-      <div className="text-center">
+      <div className="text-center container-sm">
         <div className="row g-3">
           {projects.map((project) => (
             <div className="col-12 col-md-6" key={project.id}>

@@ -55,28 +55,30 @@ const skills = [
 ];
 function Skill(props) {
   return (
-      <div className="skills_card" >
-        <img
-          src={props.logo}
-          className="skills_card__img"
-          alt={`Logo ${props.name}`}
-        />
-        <p className="skills_card__info">{props.name}</p>
-      </div>
+    <div className="skills_card">
+      <img
+        src={props.logo}
+        className="skills_card__img"
+        alt={`Logo ${props.name}`}
+      />
+      <p className="skills_card__info">{props.name}</p>
+    </div>
   );
 }
 
 export default function Skills() {
   return (
+    
     <section className="skills content-section d-flex flex-column align-items-center gap-2 gap-lg-4">
       <div className="titles">
-        <i className="bi bi-award"/>Mis Skills
+        <i className="bi bi-award" />
+        Mis Skills
       </div>
       <div className="text-center">
         <div className="row g-3">
           {skills.map((skill) => (
             <div className="col-6 col-md-3" key={skill.id}>
-                <Skill name={skill.name} logo={skill.logo}/>
+              <Skill name={skill.name} logo={skill.logo} />
             </div>
           ))}
         </div>
